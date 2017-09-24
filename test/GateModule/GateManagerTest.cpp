@@ -14,7 +14,7 @@ protected:
 	gate_module::GateManager	_gm;
 };
 
-TEST_F(GateManagerTest, defaultValue)
+TEST_F(GateManagerTest, defaultStatus)
 {
 	EXPECT_EQ(false, _gm.isGateOpen());
 }
